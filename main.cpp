@@ -25,5 +25,8 @@ int main() {
     LinkList<int>::Node *find_result = link.Find(1);
     std::cout << find_result << std::endl;
     std::cout << find_result->elem << std::endl;
+ 
+    std::cout << "main branch" << std::endl;
+
     return 0;
 }
